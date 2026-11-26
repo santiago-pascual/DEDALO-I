@@ -15,3 +15,7 @@ The private project separates research artifacts from causal forward inference a
 Raw HMM component labels are not necessarily economically stable across refits. Forward-only filtering is distinct from retrospective decoding. Historical replay parity does not prove causal parity. Historical engineering test reports exist, but this public repository does not rerun the private suite.
 
 The public project contains no private deployment instructions, network endpoints, identifiers, credentials or production code. No dashboard screenshot was supplied for a sanitized release; none is fabricated.
+
+![Publication-safe architecture](../figures/system_architecture.svg)
+
+The diagram describes documented functional boundaries, not verified deployment. Historical artifacts feed analytics separately from the simulated forward path.
