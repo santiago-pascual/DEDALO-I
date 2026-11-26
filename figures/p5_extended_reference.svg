@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" fill="#14283e">
+<text x="32" y="39" font-size="25" font-weight="bold">P5-R2 | Extended historical reference</text>
+<text x="32" y="66" font-size="14" fill="#475569">2021-05-06 to 2026-10-07 · reconstructed trades · pinned signals</text>
+<rect x="32" y="85" width="436" height="65" rx="4" fill="white" stroke="#cbd5e1"/>
+<text x="45" y="106" font-size="14">Reconstructed trades</text>
+<text x="45" y="134" font-size="25" font-weight="bold">3,858</text>
+<rect x="492" y="85" width="436" height="65" rx="4" fill="white" stroke="#cbd5e1"/>
+<text x="505" y="106" font-size="14">Gross simulated P&amp;L</text>
+<text x="505" y="134" font-size="25" font-weight="bold">$42,147</text>
+<rect x="32" y="162" width="436" height="65" rx="4" fill="white" stroke="#cbd5e1"/>
+<text x="45" y="183" font-size="14">Modeled trading costs</text>
+<text x="45" y="211" font-size="25" font-weight="bold">$7,254</text>
+<rect x="492" y="162" width="436" height="65" rx="4" fill="white" stroke="#cbd5e1"/>
+<text x="505" y="183" font-size="14">Net simulated P&amp;L</text>
+<text x="505" y="211" font-size="25" font-weight="bold">$34,893</text>
+<text x="32" y="265" font-size="13">November reports; zero added slippage. Not native fills, funded-account income or current Paper equity.</text>
+</g></svg>

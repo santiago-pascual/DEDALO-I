@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="757" viewBox="0 0 960 757">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif">
+<text x="32" y="40" font-size="25" font-weight="bold" fill="#14283e">System architecture</text>
+<text x="32" y="67" font-size="14" fill="#475569">Conceptual documented boundaries; deployment not independently verified.</text>
+<rect x="32" y="88" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="88" width="5" height="65" fill="#32738b"/>
+<text x="50" y="113" font-size="17" font-weight="bold" fill="#14283e">01  Market-data ingestion</text>
+<text x="50" y="135" font-size="14" fill="#475569">Historical and observed inputs; separate provenance</text>
+<rect x="32" y="167" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="167" width="5" height="65" fill="#32738b"/>
+<text x="50" y="192" font-size="17" font-weight="bold" fill="#14283e">02  Temporal validation</text>
+<text x="50" y="214" font-size="14" fill="#475569">Chronology, quality and session coverage</text>
+<rect x="32" y="246" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="246" width="5" height="65" fill="#32738b"/>
+<text x="50" y="271" font-size="17" font-weight="bold" fill="#14283e">03  Feature generation and regime inference</text>
+<text x="50" y="293" font-size="14" fill="#475569">Completed observations and forward-only filtering</text>
+<rect x="32" y="325" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="325" width="5" height="65" fill="#32738b"/>
+<text x="50" y="350" font-size="17" font-weight="bold" fill="#14283e">04  Strategy decisions</text>
+<text x="50" y="372" font-size="14" fill="#475569">Independent state; signal is not execution</text>
+<rect x="32" y="404" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="404" width="5" height="65" fill="#32738b"/>
+<text x="50" y="429" font-size="17" font-weight="bold" fill="#14283e">05  Portfolio risk</text>
+<text x="50" y="451" font-size="14" fill="#475569">Admission, exposure and account constraints</text>
+<rect x="32" y="483" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="483" width="5" height="65" fill="#32738b"/>
+<text x="50" y="508" font-size="17" font-weight="bold" fill="#14283e">06  Simulated execution</text>
+<text x="50" y="530" font-size="14" fill="#475569">Internal fills and modeled costs</text>
+<rect x="32" y="562" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="562" width="5" height="65" fill="#32738b"/>
+<text x="50" y="587" font-size="17" font-weight="bold" fill="#14283e">07  Durable state and recovery</text>
+<text x="50" y="609" font-size="14" fill="#475569">Checkpointing, reconciliation and fail-closed boundaries</text>
+<rect x="32" y="641" width="896" height="65" rx="5" fill="white" stroke="#cbd5e1"/>
+<rect x="32" y="641" width="5" height="65" fill="#32738b"/>
+<text x="50" y="666" font-size="17" font-weight="bold" fill="#14283e">08  Monitoring and analytics</text>
+<text x="50" y="688" font-size="14" fill="#475569">Read-only diagnostics; frozen artifacts enter analytics separately</text>
+</g></svg>

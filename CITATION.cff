@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If referencing this research showcase, cite the repository."
+title: "DÉDALO I: Systematic Futures Research"
+authors:
+  - family-names: Pascual
+    given-names: Santiago
+type: software
+repository-code: "https://github.com/santiago-pascual/DEDALO-I"
+abstract: "Public research documentation and synthetic demonstrations; not the private operational trading system."
